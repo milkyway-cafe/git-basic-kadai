@@ -1,56 +1,16 @@
 PS C:\Users\music\Desktop\git_challenge> git init
 Initialized empty Git repository in C:/Users/music/Desktop/git_challenge/.git/
 PS C:\Users\music\Desktop\git_challenge> git add hello_world.txt
-PS C:\Users\music\Desktop\git_challenge> git commit -m "1回目のコミット"
-[main (root-commit) 87e755c] 1回目のコミット
- 1 file changed, 1 insertion(+)
- create mode 100644 hello_world.txt
 PS C:\Users\music\Desktop\git_challenge> git add hello_world.txt
-PS C:\Users\music\Desktop\git_challenge> git commit -m "2回目のコミット"
-[main 72c8140] 2回目のコミット
- 1 file changed, 2 insertions(+), 1 deletion(-)
-PS C:\Users\music\Desktop\git_challenge> git status
-On branch main
-nothing to commit, working tree clean
-PS C:\Users\music\Desktop\git_challenge> git log
-commit 72c8140ba06c9f607a28d90b6687535732df164e (HEAD -> main)
-Author: milkyway-cafe <rainbowpastelflower@gmail.com>
-Date:   Tue Feb 24 23:47:08 2026 +0900
-
-    2回目のコミット
-
-commit 87e755c089dc3edd665518c0cc721af778d0cc6d
-Author: milkyway-cafe <rainbowpastelflower@gmail.com>
-Date:   Tue Feb 24 23:44:04 2026 +0900
-
-    1回目のコミット
-PS C:\Users\music\Desktop\git_challenge> git log --oneline
-72c8140 (HEAD -> main) 2回目のコミット
-87e755c 1回目のコミット
-PS C:\Users\music\Desktop\git_challenge> git add hello_world.txt
-PS C:\Users\music\Desktop\git_challenge> git commit -m "restart"
-[main d43304f] restart
- 1 file changed, 2 deletions(-)
- delete mode 100644 hello_world.txt
-PS C:\Users\music\Desktop\git_challenge> git add hello_world.txt
-PS C:\Users\music\Desktop\git_challenge> git commit -m "hello_world.txtを追加"
-[main cb0b26d] hello_world.txtを追加
+PS C:\Users\music\Desktop\git_challenge> git commit -m "hello_world.txt"
+[main (root-commit) 4e7bbab] hello_world.txt
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
 PS C:\Users\music\Desktop\git_challenge> git add hello_world.txt
 PS C:\Users\music\Desktop\git_challenge> git commit -m "日本語訳を追記"
-[main 17af263] 日本語訳を追記
+[main 3093558] 日本語訳を追記
  1 file changed, 2 insertions(+), 1 deletion(-)
 PS C:\Users\music\Desktop\git_challenge> git log --oneline
-17af263 (HEAD -> main) 日本語訳を追記
-cb0b26d hello_world.txtを追加
-d43304f restart
-72c8140 2回目のコミット
-87e755c 1回目のコミット
+3093558 (HEAD -> main) 日本語訳を追記
+4e7bbab hello_world.txt
 PS C:\Users\music\Desktop\git_challenge> 
-PS C:\Users\music\Desktop\git_challenge> git add hello_world.txt
-PS C:\Users\music\Desktop\git_challenge> git commit -m "rerestart"
-[main 5015d73] rerestart
- 1 file changed, 2 deletions(-)
- delete mode 100644 hello_world.txt
-PS C:\Users\music\Desktop\git_challenge>
